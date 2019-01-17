@@ -5,7 +5,7 @@ public interface ApiConstants {
 
   //---STATISTICS---//
 
-  String STATISTICS = "stat";
+  String STATISTICS = "";
   String GET_INCOME_BY_PERIOD = "/income/by_period"; // GET
   String GET_YEAR_PROFIT = "/profit/year/by_period"; // GET
   String GET_MACHINE_AVG_PROFIT = "/profit/avg/by_period"; // GET + "/{machineId:int}/by_period"
